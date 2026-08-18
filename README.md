@@ -1,6 +1,15 @@
-# YTL × Codex Workshop Field Guide
+# YTL ChatGPT Workshop Resources
 
-The public resource hub for the YTL Codex workshop. It is a dependency-free static site designed for GitHub Pages.
+The public resource hub for the YTL ChatGPT workshop. The site is dependency-free and published through GitHub Pages.
+
+## Deliverables
+
+1. This website
+2. The presentation slide deck
+3. A video walkthrough of the demos
+4. An additional-resources document
+
+The slide deck, video, and resource document will be linked from `index.html` as they are finalized.
 
 ## Local preview
 
@@ -12,19 +21,8 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Updating resources
-
-All resource copy and links live in `index.html`.
-
-- Replace **Slides coming soon** with an `<a>` link to the uploaded PDF.
-- Replace **Recordings coming soon** with a link to the recording or playlist.
-- Edit the two starter prompts and recreation steps in the walkthrough section.
-- Update the footer date after publishing new material.
-
-Files such as PDFs can be placed in a `resources/` directory and linked with a relative URL, for example `resources/ytl-codex-slides.pdf`.
-
 ## Publishing
 
-GitHub Pages deploys the root of the `main` branch. The public URL is:
+GitHub Pages deploys the root of the `main` branch:
 
 <https://kairosiann.github.io/ytl-chatgpt-tutorial/>
