@@ -6,23 +6,28 @@
     <title>Page not found — YTL ChatGPT Workshop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style>
       * { box-sizing: border-box; }
       html { -webkit-font-smoothing: antialiased; }
-      body { display: grid; min-height: 100svh; margin: 0; place-items: center; padding: 24px; background: #f4f1e9; color: #27303a; font-family: "IBM Plex Sans", sans-serif; }
-      main { width: min(660px, 100%); padding-top: 30px; border-top: 4px solid #25364d; }
-      .code { margin: 0 0 18px; color: #9a403d; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
-      h1 { margin: 0; color: #25364d; font: 500 clamp(48px, 10vw, 76px)/1 "IBM Plex Serif", Georgia, serif; letter-spacing: -.04em; text-wrap: balance; }
-      p { max-width: 520px; margin: 26px 0; color: #6e716f; font-size: 18px; line-height: 1.55; text-wrap: pretty; }
-      a { display: inline-flex; min-height: 46px; align-items: center; padding: 0 18px; background: #25364d; color: white; font-size: 14px; font-weight: 500; text-decoration: none; transition-property: background-color, scale; transition-duration: 150ms; }
-      a:hover { background: #40546d; }
+      body { display: grid; min-height: 100svh; margin: 0; place-items: center; padding: 24px; background: #f8f7f3; color: #0b0f17; font-family: "Inter", sans-serif; }
+      main { width: min(660px, 100%); padding: 36px; border: 1px solid #d1d4d6; border-radius: 16px; background: #fff; }
+      .trilateral-rail { display: grid; grid-template-columns: repeat(3, 24px); height: 5px; margin-bottom: 24px; overflow: hidden; border-radius: 4px; }
+      .trilateral-rail span:nth-child(1) { background: #0a1b38; }
+      .trilateral-rail span:nth-child(2) { background: #094dad; }
+      .trilateral-rail span:nth-child(3) { background: #c70424; }
+      .code { margin: 0 0 18px; color: #094dad; font-size: 14px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+      h1 { margin: 0; color: #0b0f17; font-size: clamp(48px, 10vw, 76px); font-weight: 700; letter-spacing: -.05em; line-height: 1; text-wrap: balance; }
+      p { max-width: 520px; margin: 26px 0; color: #576175; font-size: 18px; line-height: 1.55; text-wrap: pretty; }
+      a { display: inline-flex; min-height: 48px; align-items: center; padding: 0 20px; border-radius: 8px; background: #094dad; color: white; font-size: 15px; font-weight: 600; text-decoration: none; transition-property: background-color, scale; transition-duration: 180ms; }
+      a:hover { background: #0a1b38; }
       a:active { scale: .96; }
-      a:focus-visible { outline: 3px solid #9a403d; outline-offset: 3px; }
+      a:focus-visible { outline: 2px solid #094dad; outline-offset: 3px; }
     </style>
   </head>
   <body>
     <main>
+      <div class="trilateral-rail" aria-hidden="true"><span></span><span></span><span></span></div>
       <p class="code">Error 404</p>
       <h1>Page not found</h1>
       <p>The requested workshop resource may have moved or may not be available yet.</p>
